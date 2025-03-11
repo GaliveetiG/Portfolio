@@ -17,8 +17,8 @@ export const ContactSection = () => {
               href={`mailto:${emailAddress}`}
               className="inline-block"
             >
-              <div className="font-bold bg-gradient-to-r from-emerald-300 to-sky-400 h-12 rounded-3xl">
-                <button className="text-gray-900 inline-flex items-center justify-center gap-2 px-10 h-12 rounded-3xl">
+              <div className="font-bold bg-gradient-to-r from-emerald-300 to-sky-400 h-12 rounded-3xl hover:rotate-3 transition duration-300">
+                <button className="text-gray-900 inline-flex items-center justify-center gap-2 px-10 h-12 rounded-3xl  ">
                   <Image 
                     className="size-[20px] rounded-xl " 
                     src={Mail} 

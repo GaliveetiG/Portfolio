@@ -77,7 +77,7 @@ export const Home = () => {
             shouldOrbit
             orbitDuration="30s"
             shouldSpin
-            spinDuration="3s"
+            spinDuration="2s"
           >
             <SparkleIcon className="size-8 text-emerald-300/20" />
           </HeroOrbit>
@@ -87,7 +87,7 @@ export const Home = () => {
             shouldOrbit
             orbitDuration="32s"
             shouldSpin
-            spinDuration="3s"
+            spinDuration="2s"
           >
             <SparkleIcon className="size-5 text-emerald-300/20" />
           </HeroOrbit>
@@ -100,7 +100,7 @@ export const Home = () => {
             shouldOrbit
             orbitDuration="36s"
             shouldSpin
-            spinDuration="3s"
+            spinDuration="2s"
           >
             <SparkleIcon className="size-10 text-emerald-300/20" />
           </HeroOrbit>
@@ -110,7 +110,7 @@ export const Home = () => {
             shouldOrbit
             orbitDuration="38s"
             shouldSpin
-            spinDuration="6s"
+            spinDuration="4s"
           >
             <StartIcon className="size-12 text-emerald-300" />
           </HeroOrbit>
@@ -120,7 +120,7 @@ export const Home = () => {
             shouldOrbit
             orbitDuration="40s"
             shouldSpin
-            spinDuration="6s"
+            spinDuration="4s"
           >
             <StartIcon className="size-8 text-emerald-300" />
           </HeroOrbit>
@@ -130,7 +130,7 @@ export const Home = () => {
             shouldOrbit
             orbitDuration="42s"
             shouldSpin
-            spinDuration="6s"
+            spinDuration="4s"
           >
             <StartIcon className="size-2 text-emerald-300/20 rounded-full" />
           </HeroOrbit>
@@ -140,7 +140,7 @@ export const Home = () => {
             shouldOrbit
             orbitDuration="44s"
             shouldSpin
-            spinDuration="3s"
+            spinDuration="4s"
           >
             <SparkleIcon className="size-14 text-emerald-300/20" />
           </HeroOrbit>
@@ -153,7 +153,7 @@ export const Home = () => {
             shouldOrbit
             orbitDuration="48s"
             shouldSpin
-            spinDuration="6s"
+            spinDuration="4s"
           >
             <StartIcon className="size-28 text-emerald-300" />
           </HeroOrbit>

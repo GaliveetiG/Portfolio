@@ -89,13 +89,10 @@ export const About = () => {
         <h2 className="uppercase tracking-widest text-center text-md md:text-xl">
           About
         </h2>
-        <p className="text-center md:text-lg text-white/60 mt-4 max-w-md mx-auto ">
-          I just love building things that work and look good while doing it.
-          Whether it’s a sleek website, a backend that runs like a well-oiled
-          machine, or just some random project I’m experimenting with, I enjoy
-          figuring things out and making stuff happen. When I’m not coding,
-          you’ll probably find me binge-watching shows, Cooking, or dreaming up
-          the next project to work on. Let’s build something fun together...
+        <p className="text-center justify-center md:text-lg text-white/60 mt-4  ">
+        I began my journey as a developer when I discovered how design and function work together. I learned both frontend and software skills, finding inspiration in cooking and different cultures. These experiences taught me to create digital products that look good and are easy to use.
+        
+        As my journey continues, I learn new technology to make better digital experiences. I also enjoy spending time outdoors and continually seek opportunities to leverage my frontend development and software dev expertise to contribute to impactful tech ventures.
         </p>
         <h2 className="text-md md:text-xl text-center mt-8">TOOLS & TECHNOLOGIES</h2>
         <div className="mt-10 md:mt-18 flex flex-col gap-20">
