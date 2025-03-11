@@ -11,7 +11,7 @@ export const ContactSection = () => {
       <h2 className="uppercase tracking-widest text-center text-md md:text-xl">Get In Touch</h2>
       <div className="container mt-8">
         <Card className="py-8 px-10 rounded-3xl">
-          <p className="text-md md:text-lg mt-2 text-white/60">I'm always on the lookout for new opportunities and my inbox is open for all. If you're considering my contribution, have a question, or just want to say hi, you can count on hearing back from me!</p>
+          <p className="text-md md:text-lg mt-2 text-white/60">I am always on the lookout for new opportunities and my inbox is open for all. If you are considering my contribution, have a question, or just want to say hi, you can count on hearing back from me!</p>
           <div className="flex justify-center mt-8">
             <a
               href={`mailto:${emailAddress}`}

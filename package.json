@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@humanwhocodes/config-array": "^0.11.14",
+    "@humanwhocodes/object-schema": "^2.0.3",
     "@react-pdf-viewer/core": "^3.12.0",
     "@svgr/webpack": "^8.1.0",
+    "are-we-there-yet": "^2.0.0",
     "framer-motion": "^11.3.21",
+    "gauge": "^3.0.2",
+    "glob": "^7.2.3",
+    "inflight": "^1.0.6",
     "lucide-react": "^0.479.0",
     "next": "14.2.5",
+    "npmlog": "^5.0.1",
     "react": "^18",
     "react-dom": "^18",
+    "rimraf": "^3.0.2",
     "tailwind-merge": "^2.4.0"
   },
   "devDependencies": {
