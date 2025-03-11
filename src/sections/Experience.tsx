@@ -23,7 +23,7 @@ const experience = [
 export const Experience = () => {
   const constraintsRef = useRef(null);
     return (
- <div className="py-30 lg:py-33">
+ <div className="py-16">
     <div className="container">
   <div className="uppercase tracking-widest text-center text-md md:text-xl">Experience</div> 
 

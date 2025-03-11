@@ -84,7 +84,7 @@ export const skills = [
 
 export const About = () => {
   return (
-    <section className="py-16  lg:py-18">
+    <section className="py-16">
       <div className="container mx-auto p-4">
         <h2 className="uppercase tracking-widest text-center text-md md:text-xl">
           About

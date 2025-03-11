@@ -58,7 +58,7 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <div className="py-20 md:py-22 lg:py-24 min-h ">
+    <div className="py-16 ">
       <div className="container">
         <h2 className="uppercase tracking-widest text-center text-md md:text-xl">
           Projects
