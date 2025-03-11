@@ -64,7 +64,7 @@ export const Projects = () => {
           Projects
         </h2>
         <div className="mt-12 lg:mt-20 flex overflow-x-clip mask-image-[linear-gradient(to_right,transparent,rgba(0,0,0,0.2),rgba(0,0,0,9),transparent)] [-webkit-mask-image:linear-gradient(to_right,transparent,rgba(0,0,0,1),rgba(0,0,0,9),transparent)] py-4 -my-4">
-          <div className="flex flex-none gap-8 pr-8 animate-move-left [animation-duration:90s] sm:[animation-duration:100s] hover:[animation-play-state:paused]">
+          <div className="flex flex-none gap-8 pr-8 animate-move-left [animation-duration:50s] sm:[animation-duration:60s] hover:[animation-play-state:paused]">
             {[...new Array(2)].fill(0).map((_, index) =>(
               <Fragment key={index}>
              {projects.map((project) => (
