@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Card } from "@/components/Card";
 
 export const ContactSection = () => {
-  const emailAddress = "gayathrigaliveeti111@gmail.com";
+  const emailAddress = "gayathrigaliveeti1111@gmail.com";
   
   return (
     <div className="py-20">
@@ -17,16 +17,16 @@ export const ContactSection = () => {
               href={`mailto:${emailAddress}`}
               className="inline-block"
             >
-              <div className="font-bold bg-gradient-to-r from-emerald-300 to-sky-400 h-12 rounded-3xl hover:rotate-3 transition duration-300">
-                <button className="text-gray-900 inline-flex items-center justify-center gap-2 px-10 h-12 rounded-3xl  ">
-                  <Image 
-                    className="size-[20px] rounded-xl " 
-                    src={Mail} 
-                    alt="Mail icon" 
-                  />
-                  Say hello
-                </button>
-              </div>
+              <div className="font-bold bg-gradient-to-r from-emerald-300 to-sky-400 h-12 rounded-3xl hover:rotate-3 transition duration-300 transform-gpu">
+  <button className="text-gray-900 inline-flex items-center justify-center gap-2 px-10 h-12 rounded-3xl overflow-hidden w-full">
+    <Image
+      className="size-[20px] rounded-xl"
+      src={Mail}
+      alt="Mail icon"
+    />
+    Say hello
+  </button>
+</div>
             </a>
           </div>
         </Card>

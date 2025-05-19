@@ -8,7 +8,7 @@ const calistoga =  Calistoga({subsets: ["latin"], variable: "--font-serif", weig
 
 export const metadata: Metadata = {
   title: "Gayathri Galiveeti",
-  description: "Created with Love",
+  description: "Gayathri Galiveeti is a Full-stack Developer, Frontend developer and software Engineer",
 };
 
 export default function RootLayout({

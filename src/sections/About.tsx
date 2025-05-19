@@ -31,6 +31,7 @@ import agileimg from "@/assets/images/agile.png";
 import mlimg from "@/assets/images/ml.png";
 import dsimg from "@/assets/images/dsa.png";
 import docker from "@/assets/images/docker.png";
+import spring from "@/assets/images/spring.png"
 import { Card } from "@/components/Card";
 
 export const skills = [
@@ -53,6 +54,7 @@ export const skills = [
     skills: [
       { name: "Java", image: javaimg, width: 80, height: 80 },
       { name: "Python", image: pythonimg, width: 80, height: 80 },
+      { name: "spring", image: spring, width: 80, height: 80},
       { name: "Node.js", image: nodeimg, width: 80, height: 80 },
       { name: "REST APIs", image: restimg, width: 80, height: 80 },
       { name: "MongoDB", image: mongodbimg, width: 40, height: 40 },
@@ -84,16 +86,15 @@ export const skills = [
 
 export const About = () => {
   return (
-    <section className="py-16">
+    <section className="py-14.3">
       <div className="container mx-auto p-4">
         <h2 className="uppercase tracking-widest text-center text-md md:text-xl">
           About
         </h2>
         <p className="text-center justify-center md:text-lg text-white/60 mt-4  ">
-        I began my journey as a developer when I discovered how design and function work together. I learned both frontend and software skills, finding inspiration in cooking and different cultures. These experiences taught me to create digital products that look good and are easy to use.
-        
-        As my journey continues, I learn new technology to make better digital experiences. I also enjoy spending time outdoors and continually seek opportunities to leverage my frontend development and software dev expertise to contribute to impactful tech ventures.
-        </p>
+        My journey began with curiosity: how do things work behind the screen? That spark led me to explore both design and development, where I found a deep passion for building meaningful digital experiences. Whether coding late into the night or drawing parallels between creativity in cooking and clean code, I’ve always been fueled by the joy of learning and creating.
+
+        From college projects to professional roles at companies like Airbnb and Uber, each step has shaped my mindset — one that values clarity, purpose, and impact. I believe in tech that not only works, but connects. Today, I continue that journey, inspired by every new challenge, and committed to crafting solutions that are as thoughtful as they are powerful. </p>
         <h2 className="text-md md:text-xl text-center mt-8">TOOLS & TECHNOLOGIES</h2>
         <div className="mt-10 md:mt-18 flex flex-col gap-20">
           {skills.map((about, aboutIndex) => (

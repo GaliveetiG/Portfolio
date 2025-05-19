@@ -9,7 +9,7 @@ import SocialButtons from "@/components/SocialButtons";
 
 export const Home = () => {
   return (
-    <div className="relative w-full h-full min-h-screen sm:min-h-[100vh] overflow-hidden mx-auto px-4 md:px-8 lg:px-16 py-16 md:py-48 lg:py-60 flex flex-col justify-center z-0">
+    <div className="relative w-full h-full min-h-screen sm:min-h-[100vh] mx-auto px-4 md:px-8 lg:px-16 py-14 md:py-48 lg:py-60 flex flex-col justify-center z-0 overflow-clip">
       <div
         className="absolute inset-0"
         style={{
@@ -175,8 +175,7 @@ export const Home = () => {
       </div>
       <div className="max-w-lg mx-auto">
         <p className="text-center flex flex-col items-center mt-6 gap-4 md:text-lg text-white/60">
-          I build secure, innovative web applications that enhance user
-          engagement and drive technological advancement.
+        Crafting fast, secure, and scalable web applications with React, Spring Boot, and AWS — turning complex problems into elegant user experiences.
         </p>
       </div>
       <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-6">
@@ -188,7 +187,7 @@ export const Home = () => {
 
         <a
           className="inline-flex items-center font-medium leading-tight text-foreground group"
-          href="/GayathriGaliveeti_resume.pdf"
+          href="/Gayathri Galiveeti.pdf"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="View Gayathri Galiveeti's full resume (PDF)"

@@ -3,13 +3,14 @@ import { Fragment } from "react";
 
 const projects = [
   {
-    title: "Blog Website",
+    title: "TODO List Application",
     description:
-      "The blog site features advanced content management and real-time data processing, using Next.js APIs for optimal blog storage and retrieval. Integrating MongoDB for the backend and Tailwind CSS for the frontend improves security, responsiveness, and overall user experience.",
+      "Developed a full-stack To-Do app using React, Node.js, Express, and client-side task management and with color-coded task statuses (red: overdue, blue: today, yellow: future), dynamic forms for update, delete, and follow-up, and real-time UI updates with responsive design.",
     skills: [
-      "Next.js",
-      "MongoDB",
-      "Tailwind CSS",
+      "React",
+      "JavaScript",
+      "node.js",
+      "Express",
       "API Development",
       "Data Management",
       "Responsive Design",
@@ -58,7 +59,7 @@ const projects = [
 
 export const Projects = () => {
   return (
-    <div className="py-16 ">
+    <div className="py-15.8 ">
       <div className="container">
         <h2 className="uppercase tracking-widest text-center text-md md:text-xl">
           Projects

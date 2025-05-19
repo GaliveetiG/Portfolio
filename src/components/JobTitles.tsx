@@ -13,9 +13,9 @@ const JobTitles = () => {
   const pauseBeforeNextTitle = 700; 
   
   const titles = React.useMemo(() => [
+    'SOFTWARE DEVELOPER',
     'FRONT-END DEVELOPER',
     'WEB DEVELOPER',
-    'SOFTWARE ENGINEER'
   ], []);
 
   useEffect(() => {
