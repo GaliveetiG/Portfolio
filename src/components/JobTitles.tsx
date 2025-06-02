@@ -16,6 +16,8 @@ const JobTitles = () => {
     'SOFTWARE DEVELOPER',
     'FRONT-END DEVELOPER',
     'WEB DEVELOPER',
+    'FULL-STACK DEVELOPER',
+    'SOFTWARE ENGINEER',
   ], []);
 
   useEffect(() => {
