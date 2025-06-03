@@ -8,7 +8,7 @@ const experience = [
        title: "Software Developer",
        company: "Uber",
        period: "Present",
-       description: "Worked on developing real-time driver performance dashboards using React.js and Spring Boot, delivering fast and reliable UI experiences. I build RESTful and GraphQL APIs to support dynamic data flows and manage CI/CD pipelines with Jenkins, Docker, and Kubernetes for streamlined deployments. I deploy scalable microservices on AWS (EC2, ELB, CloudWatch) and optimize MySQL and MongoDB databases for high-throughput systems, ensuring high availability and reliability.",
+       description: "Working on developing real-time driver performance dashboards using React.js and Spring Boot, delivering fast and reliable UI experiences. I build RESTful and GraphQL APIs to support dynamic data flows and manage CI/CD pipelines with Jenkins, Docker, and Kubernetes for streamlined deployments. I deploy scalable microservices on AWS (EC2, ELB, CloudWatch) and optimize MySQL and MongoDB databases for high-throughput systems, ensuring high availability and reliability.",
        skills: ["React.js", "TypeScript", "Java", "Spring Boot", "RESTful APIs", "GraphQL", "Jenkins", "Docker", "Kubernetes", "AWS", "MySQL", "MongoDB", "Agile", "Microservices", "CI/CD"],
     },
     {
