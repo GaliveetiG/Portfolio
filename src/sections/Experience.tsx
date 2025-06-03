@@ -45,7 +45,7 @@ export const Experience = () => {
       <div className="text-md md:text-xl ">{experience[0].company}</div>
     </div>
     <div className="md:text-lg text-white/60">{experience[0].period}</div>
-    <div className="mt-4 text-white/60">{experience[0].description}</div>
+    <div className="mt-2 text-white/60">{experience[0].description}</div>
   </div>
 </Card>
     
