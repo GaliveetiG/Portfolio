@@ -18,13 +18,7 @@ const experience = [
         description:" Developed reusable UI components using React.js, TypeScript, and Redux to enhance performance and code maintainability across the Experiences Platform. Secure authentication was implemented using OAuth 2.0 and JWT, while fast and scalable search was enabled through Elasticsearch and Axios integration. Automated test coverage was expanded using Jest and GitHub Actions, ensuring reliability. CI/CD processes were streamlined by containerizing builds with Docker and deploying them via Kubernetes.",
         skills: ["React", "TypeScript", "Redux Toolkit", "Redux Saga", "React Query", "Context API","Java", "Spring Boot", "Node.js", "GitHub Actions", "Jenkins", "Docker", "Elasticsearch", "LaunchDarkly", "OAuth 2.0", "JWT", "Agile", "UI/UX Collaboration", "CI/CD"],
     },
-    {
-        title: "Machine Learning Engineer - Internship",
-        company: "Pragyan-AI",
-        period: "Jun 2021 - Nov 2021",
-        description: "Designed a TensorFlow-based fall detection system using real-time image and video analysis to enhance safety for the elderly and individuals with disabilities. Demonstrated adaptability and creative problem-solving in a fast-paced startup environment, contributing to a project with significant social impact. Continuously expanded my machine learning expertise, applying cutting-edge techniques to practical challenges in health and wellness.",
-        skills: ["Python", "TensorFlow", "OpenCV", "Scikit-learn", "Machine Learning", "Image and Video Analysis", "Jupyter Notebook", "Data Preprocessing"],
-    },
+    
 ];
 
 export const Experience = () => {
@@ -88,33 +82,7 @@ export const Experience = () => {
       </div>
     </Card>
     
-    <Card 
-  className="sm:h-auto md:h-auto lg:h-[320px] md:col-span-3 transform hover:rotate-2 rotate-0 transition duration-300 ease-in-out hover:shadow-[0_10px_15px_-3px_rgba(110,231,183,0.4)]"
->
-  <div>
-    <div className="mt-2 text-emerald-300 text-gradient">
-      <div className="text-md md:text-xl ">{experience[2].title}</div>
-      <div className="text-md md:text-xl ">{experience[2].company}</div>
-    </div>
-    <div className="md:text-lg text-white/60">{experience[2].period}</div>
-    <div className="mt-4 text-white/60">{experience[2].description}</div>
-  </div>
-</Card>
     
-    <Card 
-  className="sm:h-auto md:h-auto lg:h-[320px] md:col-span-2 border transform hover:rotate-2 rotate-0 transition duration-300 ease-in-out hover:shadow-[0_10px_15px_-3px_rgba(110,231,183,0.4)]"
->
-  <div>
-    <h3 className="text-white/60 text-md md:text-xl mb-3">Skills</h3>
-    <div className="flex flex-wrap gap-2 ">
-      {experience[2].skills.map((skill, index) => (
-        <div key={index} className="px-4 py-2 rounded-3xl bg-emerald-300 text-gray-900 text-sm">
-          {skill}
-        </div>
-      ))}
-    </div>
-  </div>
-</Card>
   </div>
 </div>
  </div>
