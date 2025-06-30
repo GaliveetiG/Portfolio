@@ -187,7 +187,7 @@ export const Home = () => {
 
         <a
           className="inline-flex items-center font-medium leading-tight text-foreground group"
-          href="/Gayathri Galiveeti.pdf"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
           aria-label="View Gayathri Galiveeti's full resume (PDF)"
