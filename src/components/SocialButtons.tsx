@@ -15,7 +15,7 @@ const SocialButtons = () => {
     <div className="flex items-center gap-2 relative z-10">
       {/* GitHub Button */}
       <a
-        href="https://github.com/GaliveetiG/GAYATHRIGALIVEETI.github.io"
+        href="https://github.com/GaliveetiG?tab=overview&from=2025-09-01&to=2025-09-18"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center justify-center w-12 h-12 rounded-xl hover:bg-gray-800 transition-colors border-2 border-gray-800 cursor-pointer"
