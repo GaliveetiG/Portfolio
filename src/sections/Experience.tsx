@@ -1,23 +1,24 @@
 "use client";
 import { Card } from "@/components/Card";
-import {motion} from 'framer-motion';
 import React, { useRef } from 'react';
 
 const experience = [
+
     {
-       title: "Software Developer",
-       company: "Uber",
-       period: "Apr 2025 - Present",
-       description: "Working on developing real-time driver performance dashboards using React.js and Spring Boot, delivering fast and reliable UI experiences. I build RESTful and GraphQL APIs to support dynamic data flows and manage CI/CD pipelines with Jenkins, Docker, and Kubernetes for streamlined deployments. I deploy scalable microservices on AWS (EC2, ELB, CloudWatch) and optimize MySQL and MongoDB databases for high-throughput systems, ensuring high availability and reliability.",
-       skills: ["React.js", "TypeScript", "Java", "Spring Boot", "RESTful APIs", "GraphQL", "Jenkins", "Docker", "Kubernetes", "AWS", "MySQL", "MongoDB", "Agile", "Microservices", "CI/CD"],
-    },
+   title: "Software Engineer",
+   company: "Ness Digital Engineering",
+   period: "Apr 2025 – Present",
+   description: "Built scalable wellness-tech features for the Stitch mental-wellness platform using AWS, React, and Node.js. Developed secure TypeScript microservices on AWS Lambda and API Gateway to deliver low-latency CBT session data. Created pixel-perfect, WCAG-compliant UI using React and Tailwind, integrated REST/GraphQL APIs backed by DynamoDB, and implemented secure OAuth2/JWT flows. Collaborated in agile teams, conducted code reviews, Github reviews and documentation to support rapid iteration and reliable releases.",
+   skills: ["React.js", "TypeScript", "Node.js", "AWS Lambda", "API Gateway", "DynamoDB", "GraphQL", "OAuth2", "JWT", "Redis", "Docker", "Kubernetes", "GitHub Actions"],
+},
     {
-        title: "Software Developer",
-        company: "AirBnb",
-        period: "Dec 2021 - Dec 2022",
-        description:" Developed reusable UI components using React.js, TypeScript, and Redux to enhance performance and code maintainability across the Experiences Platform. Secure authentication was implemented using OAuth 2.0 and JWT, while fast and scalable search was enabled through Elasticsearch and Axios integration. Automated test coverage was expanded using Jest and GitHub Actions, ensuring reliability. CI/CD processes were streamlined by containerizing builds with Docker and deploying them via Kubernetes.",
-        skills: ["React", "TypeScript", "Redux Toolkit", "Redux Saga", "React Query", "Context API","Java", "Spring Boot", "Node.js", "GitHub Actions", "Jenkins", "Docker", "Elasticsearch", "LaunchDarkly", "OAuth 2.0", "JWT", "Agile", "UI/UX Collaboration", "CI/CD"],
-    },
+   title: "Software Engineer",
+   company: "HCL Technologies",
+   period: "Jan 2021 – Dec 2022",
+   description: "Developed real-time analytics dashboards using React, TypeScript, and Redux for drilling and exploration data. Built D3.js visualizations for anomaly detection and geospatial insights, optimized front-end performance by reducing bundle size by 32%, and integrated UI with Spring Boot REST APIs. Delivered secure authentication via OAuth2 and AWS IAM, improved UI reliability with Jest/RTL tests, implemented reusable component libraries, and collaborated with DevOps teams to containerize builds and deploy via Docker, Kubernetes, and Jenkins.",
+   skills: ["React.js", "TypeScript", "Redux", "D3.js", "Spring Boot", "REST APIs", "OAuth2", "AWS IAM", "Jest", "React Testing Library", "Docker", "Kubernetes", "Jenkins"],
+},
+
     
 ];
 
@@ -30,6 +31,7 @@ export const Experience = () => {
 
   <div className="mt-20 flex flex-col gap-8">
   <div className="grid grid-cols-1 gap-8 md:grid md:grid-cols-5 md:gap-4">
+   
   <Card 
   className="sm:h-auto md:h-auto lg:h-[320px] md:col-span-3 transform hover:rotate-2 rotate-0 transition duration-300 ease-in-out hover:shadow-[0_10px_15px_-3px_rgba(110,231,183,0.4)]"
 >
