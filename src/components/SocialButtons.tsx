@@ -51,7 +51,7 @@ const SocialButtons = () => {
       
       {/* Gmail Button */}
       <a
-        href="mailto:gayathrigaliveeti1111@gmail.com"
+        href="mailto:galiveetigayathri1@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center justify-center w-12 h-12 rounded-xl hover:bg-gray-800 transition-colors border-2 border-gray-800 cursor-pointer"

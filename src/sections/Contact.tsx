@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Card } from "@/components/Card";
 
 export const ContactSection = () => {
-  const emailAddress = "gayathrigaliveeti1111@gmail.com";
+  const emailAddress = "galiveetigayathri1@gmail.com";
   
   return (
     <div className="py-20">
